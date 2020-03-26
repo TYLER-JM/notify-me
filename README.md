@@ -2,6 +2,8 @@
 
 ## Usage
 
+from within the project directory:
+
 `$ node notify-me.js 25`
 
 ...sets a timer for 25 minutes
