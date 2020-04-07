@@ -1,13 +1,21 @@
 {
   "name": "notify-me",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.4.0",
+  "description": "A simple command line notifier",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Tyler Martin",
+    "email": "tyler.j.a.martin@gmail.com",
+    "url": "https://tylermartin.netlify.com/"
+  },
+  "bin": {
+    "notifi": "./bin/global.js"
+  },
+  "preferGlobal": true,
   "license": "ISC",
   "dependencies": {
     "node-notifier": "^6.0.0"

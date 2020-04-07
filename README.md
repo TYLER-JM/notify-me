@@ -14,6 +14,11 @@ You can even use a decimal:
 
 wow!
 
+### Brand new as of version 1.4.0
+
+see the passage of time right in the terminal, no more guessing how much longer you need to work!
+
+
 ## Dependencies / Requirements
 - [node-notifier](https://github.com/mikaelbr/node-notifier)
 - macOS >= 10.8
